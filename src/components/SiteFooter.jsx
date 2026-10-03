@@ -78,8 +78,8 @@ export default function SiteFooter() {
       </nav>
 
       {/* Desktop footer */}
-      <footer className="hidden md:block bg-charcoal text-[#e8dcd6] px-8 pt-14 pb-6">
-        <div className="max-w-[1280px] mx-auto grid grid-cols-5 gap-10">
+      <footer className="block bg-charcoal text-[#e8dcd6] px-5 md:px-8 pt-10 md:pt-14 pb-24 md:pb-6">
+        <div className="max-w-[1280px] mx-auto grid grid-cols-2 md:grid-cols-5 gap-x-6 gap-y-8 md:gap-10">
           <div className="col-span-2">
             <h4 className="font-serif text-xl text-white mb-2">Fahmida's Fashion</h4>
             <p className="text-[11px] tracking-wide text-gold-accent mb-4">Style with Elegance</p>
